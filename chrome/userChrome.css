@@ -54,6 +54,10 @@
 .tab-icon-image {
 	opacity: 1 !important;
   }
+  /* different color for tab with blocked media */
+  .tab-icon-overlay[activemedia-blocked] {
+	 color: #12BC00 !important; 
+  }
   /* Move tab sound icon to the top left */
   .tab-icon-overlay {
 	/* top - left */
