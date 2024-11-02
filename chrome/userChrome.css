@@ -56,7 +56,8 @@
   }
   /* different color for tab with blocked media */
   .tab-icon-overlay[activemedia-blocked] {
-	 color: #12BC00 !important; 
+/* 	 color: #12BC00 !important;  */
+/*     filter: invert(0%) sepia(100%) saturate(1000%) hue-rotate(115deg) brightness(0.8) !important;; */
   }
   /* Move tab sound icon to the top left */
   .tab-icon-overlay {
@@ -68,10 +69,13 @@
 	padding: 1px !important;
 	/* background */
 	stroke: var(--tab-icon-overlay-stroke, black) !important;
-	background: var(--tab-icon-overlay-stroke, black) !important;
+/* 	background: var(--tab-icon-overlay-stroke, black) !important; */
+	border: none !important;
+/* 	background-blend-mode: multuply !important; */
 	fill-opacity: 0.6 !important;
+    filter: invert(0%) sepia(100%) saturate(1000%) hue-rotate(90deg) brightness(1.2);
 	/* icon color */
-	color: #00DDFF !important;
+/* 	color: #00DDFF !important; */
 	/* circle */
 	border-radius: 10px !important;
   }
